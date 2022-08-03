@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portfolio website</title>
 	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 
-	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -25,7 +27,7 @@
 				
 				<li><a href="#">Contact Us</a></li>
 			</ul>
-			<a href="#" class="btn">Let's talk</a>
+			<!-- <a href="#" class="btn">Let's Start</a> -->
 		</nav>
 
 		<div class="content">
@@ -36,7 +38,7 @@
 			<div class="newslatter">
 				<form>
 					<input type="email" name="email" id="mail" placeholder="Enter Your Email">
-					<input type="submit" name="submit" value="Lets Start">
+					<input type="submit" name="submit" value="Lets Talk">
 				</form>
 			</div>
 		</div>
@@ -44,37 +46,37 @@
 	</div>
 
 	<!----About section start---->
-	<section class="about ">
-		
+	<!-- <section class="about "> -->
+		<div class="about">
 		<div class="main">
 			<img src="img/Image.jpeg">
 			<div class="about-text">
 				<h2 class="about-item">About Me</h2>
 				<h5>Developer <span>& Networks</span> Engineer</h5>
-				<p>I am a Full-stack web developer.I Graduated From Albalqa Applied University Majoring in Computer Systems & Networks Engineering .I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.</p>
-				<button type="button">Download CV</button>
+				<p>I am a Full-stack web developer.I Graduated From Albalqa Applied University Majoring in Computer Systems & Networks Engineering .I Can Provide Clean Code and Pixel Perfect Design. I Also Make The Website More & More Interactive With Web Animations.</p>
+				<a href="https://drive.google.com/file/d/1CTQQNufYLHlRi2Bb69qznan60hrBJ-b3/view?usp=sharing" target="_blank"><button type="button">View CV</button></a>
 			</div>
 		</div>
-	
-	</section>
+	</div>
+	<!-- </section> -->
 
 	<!-----service section start----------->
 	<div class="service ">
 		<div class="title">
-			<h2>My Services</h2>
+			<h2>My Projects</h2>
 		</div>
 
 		<div class="box">
 
 			<div class="card ">
 				
-				<i class="fas fa-bars"></i>
-				<h5>Web Development</h5>
+				<i class="fas fa-bars"></i> 
+				<h5>Project Html and Css</h5>
 				<div class="pra">
-					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+					<p>This first project is a template, I used HTML and CSS , I didn't use Grid or Flex.</p>
 
 					<p style="text-align: center;">
-						<a class="button" href="#">Live Demo</a>
+						<a class="button" href="https://mohammedalblewi.github.io/html-css-task/" target="_blank">Live Demo</a>
 					</p>
 				</div>
 			</div>
@@ -82,24 +84,24 @@
 
 			<div class="card">
 				<i class="fas fa-bars"></i>
-				<h5>Web Development</h5>
+				<h5>Bootstrap Exercise</h5>
 				<div class="pra">
-					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+					<p>This second project is a template, I just used it bootstrap, I didn't use Css.</p>
 
 					<p style="text-align: center;">
-						<a class="button" href="#">Live Demo</a>
+						<a class="button" href="https://mohammedalblewi.github.io/task-bootstrap/" target="_blank">Live Demo</a>
 					</p>
 				</div>
 			</div>
 
 			<div class="card">
 				<i class="fas fa-bars"></i>
-				<h5>Web Development</h5>
+				<h5>Grid and Flex</h5>
 				<div class="pra">
-					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+					<p>This third project is a mockup, an exercise in learning to use Flex and Grid.</p>
 
 					<p style="text-align: center;">
-						<a class="button" href="#">Live Demo</a>
+						<a class="button" href=" https://mohammedalblewi.github.io/flex-grid/" target="_blank">Live Demo</a>
 					</p>
 				</div>
 			</div>
@@ -108,7 +110,7 @@
 
 	<!------Contact Me------>
 	<div class="contact-me">
-		<p>Let Me Get You A Beautiful Website.</p>
+		<p>My Skills.</p>
 		<!-- <a class="button-two" href="#">Hire Me</a> -->
 		<ul>
 			<li>HTML</li>
@@ -125,12 +127,12 @@
 
 	<!------footer start--------->
 	<footer>
-		<p>Mohammed Alblewi</p>
-		<p>I'am available for freelance work. Connect with me via phone: 0778084936 or accounts </p>
+		<p class="footer-test">Mohammed Alblewi</p>
+		<p>I'am Available For Freelance Work. Connect With Me Via Phone: 0778084936 or Accounts </p>
 		<div class="social">
-			<a href="#"><i class="fab fa-google-plus"></i></a>
-			<a href="#"><i class="fab fa-linkedin"></i></a>
-			<a href="#"><i class="fab fa-github"></i></a>
+			<a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fab fa-google-plus"></i></a>
+			<a href="https://www.linkedin.com/in/mohammad-alblewi-479449244" target="_blank"><i class="fab fa-linkedin"></i></a>
+			<a href="https://github.com/mohammedalblewi" target="_blank"><i class="fab fa-github"></i></a>
 		</div>
 		<p class="end">CopyRight By Mohammed Alblewi</p>
 	</footer>
